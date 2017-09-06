@@ -1,0 +1,49 @@
+html,body
+{
+    background-color: #6289EB;
+}
+
+#section1
+{
+    background: url("../Media/landing/landing back.svg") no-repeat center fixed;
+    background-size:100% 100%;
+    opacity: 0.9;
+    
+}
+
+#logo
+{
+    position: fixed;
+    padding-top: 30px;
+    width: 5%;
+    z-index: 1000;
+    opacity: 0.3;
+    
+}
+
+#menu
+{
+    font-size: 80px;
+    right: 0px;
+    position: fixed;
+    text-align: right;
+    width: 5%;
+    padding-right:10px;
+    z-index: 1000;
+    opacity: 0.3;
+    color: white;
+    
+}
+
+.sectionScreen
+{
+    height: 100vh;
+    width: 100vw;
+
+}
+.centar{
+    top:40%;
+    left:0%;
+    position: relative;
+    text-align: center;
+}

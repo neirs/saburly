@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="262px" viewBox="0 0 370 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359827899">
+        <g id="test-desk-2a" transform="translate(-872.000000, -588.000000)" stroke-width="6" stroke="#4349D5">
+            <g id="Group-26">
+                <g transform="translate(39.000000, -34.000000)" id="Combined-Shape-tablet">
+                    <path d="M891,576 C887.686292,576 885,578.686292 885,582 L885,934 C885,937.313708 887.686292,940 891,940 L1145,940 C1148.31371,940 1151,937.313708 1151,934 L1151,582 C1151,578.686292 1148.31371,576 1145,576 L891,576 Z M1018.70103,923.744361 C1012.01629,923.744361 1006.58763,918.358617 1006.58763,911.703008 C1006.58763,905.047398 1012.01629,899.661654 1018.70103,899.661654 C1025.38577,899.661654 1030.81443,905.047398 1030.81443,911.703008 C1030.81443,918.358617 1025.38577,923.744361 1018.70103,923.744361 Z" transform="translate(1018.000000, 758.000000) rotate(-90.000000) translate(-1018.000000, -758.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

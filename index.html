@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
     <title>Saburly</title>
     <link rel="stylesheet" type="text/css" href="css\main.css">
+    <script src="media\js\main.js"></script> 
 </head>
 <body>
     <header>
-            <img id="logo" src="Media\logo\logo white.svg" alt="bijeli logo">
+        <div id="logo">
+            <img src="Media\logo\logo white.svg" alt="bijeli logo">                
+        </div>
             <div id="menu">&equiv;</div>
     </header>
 
@@ -30,7 +33,7 @@
                 <img class="backImage" src="Media\what we do\UI&UX Design main_gpn_original_full_full-640x509@2x.png" alt="UX&UI">
         </div>
         
-        <div class="half2">
+        <div class="half">
             <h1 class="ux">UX & UI Design</h1>
             <div class="ux">We love design and will make your application both beautiful and functional.</div>
         </div>
@@ -71,8 +74,11 @@
         <div class="gallery">
         </div>
         <div>
-            <h4></h4>
-            <div></div>
+            <button onclick="switchImage('-')">Lijevo</button>                
+            <button onclick="switchImage('+')">Desno</button>
+            <div>
+                <img id="galerijaSlika" src="media\our work\Analytical Capabilities.svg" alt="slika">
+            </div>
         </div>
 
     </section>

@@ -95,10 +95,16 @@ html,body
     text-align: center;
     font-size: 20;
     
+    
 }
 
 .section3{
     background: url("../Media/what we do/Web Development Analog-Computing-Machine-in-Fuel-Systems-Building-Lewis-Flight-Propulsion-Lab-NASA-1200x774.png") no-repeat center fixed;
+    background-size:100% 100%;
+    opacity: 0.9;
+}
+.section4{
+    background: url("../Media/what we do/.Mobile development -cellphone-ft.png") no-repeat center fixed;
     background-size:100% 100%;
     opacity: 0.9;
 }

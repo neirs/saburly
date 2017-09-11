@@ -96,6 +96,7 @@ html,body
     font-size: 20;
     
     
+    
 }
 
 #section6{
@@ -103,18 +104,26 @@ html,body
 }
 
 .bossImage{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 140px;
+    margin-top: 200px;
+ 
+
 }
 
 .boss{
     width:30%;
     height:30%;
     float: left;
+
+    
+  
 }
 .slika{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
 .button{
     background-color:white; color: black;
@@ -127,14 +136,55 @@ html,body
     top:660px;
 
 }
+#section7{
+    background-color:#232020;
+}
 .sedam{
     top:40%;
     left:0%;
     position: relative;
     text-align: center;
-    font-size: 20;
+    font-size: 30;
+    color:white;
     
 }
 .form{
-    border: 3px solid #555;
+    width: 30%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+#saburly{
+    color: #6289EB;
+}
+.footer{
+    top:40%;
+    left:0%;
+    position: relative;
+    text-align: center;
+    font-size: 20;
+    color:white;
+}
+.imgfooter{
+    width: 3%;
+}
+.bossName{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 120px;
+    color: #6289EB;
+    font-size:25;
+}
+.team{
+    font-style: bold;
+    font-size: 30;
+    color: #6289EB;
+    left:100px;
+    top:50px;
+    position: relative;
+}
+

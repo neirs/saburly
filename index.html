@@ -8,6 +8,7 @@
     <title>Saburly</title>
     <link rel="stylesheet" type="text/css" href="css\main.css">
     <script src="media\js\main.js"></script> 
+    <script src="media\js\jquery-3.2.1.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
     <section id="section1" class="sectionScreen">
         <div class="centar">        
             <img src="media/logo/saburly.svg" alt="Saburly">
-            <h1>Web & Mobile Applications</h1>            
+            <h1 onclick="this.innerHTML='WELCOME'">Web & Mobile Applications</h1>                       
         </div>
     </section>
 <!-- kraj section jedan -->
@@ -135,12 +136,18 @@
             <p> Milana Preloga 12,</p>
               <p> Sarajevo BiH,</p>
               <p> info@saburly.com</p>
-              <p>www.saburly.com </p>
+              <a href ="http://www.saburly.com">www.saburly.com </a> <br>
               <img class="imgfooter" src="Media\footer\twitter_318-136405.jpg" alt="twitter">
 
               </div>
     </section>
     <!--kraj section osam tj zadnji -->
+    <script>
+      $(".ux").on("mouseenter",function(){
+        $(this).css("color","blue")
+      });
+   
+        </script>
 </body>
 
-</html>
+</html>  

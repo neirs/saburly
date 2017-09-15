@@ -107,6 +107,8 @@ html,body
     max-width:30%; 
     height:auto;
     position: absolute;
+    
+
         
 }
 
@@ -143,21 +145,14 @@ html,body
     position: relative;
     margin-left: 140px;
     margin-top: 200px;
- 
-
 }
 
 .boss{
     width:30%;
     height:30%;
     float: left;
-
-    
-  
 }
 .slika{
- 
-    
     position: relative;
     left:200px;
     bottom: 50px;
@@ -195,9 +190,9 @@ html,body
     box-sizing: border-box;
 }
 
-#saburly{
+/*#saburly{
     color: #6289EB;
-}
+}*/
 .footer{
     position: relative;
     text-align: center;

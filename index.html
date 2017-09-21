@@ -4,7 +4,7 @@
     <meta name="description" content="Web development">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Saburly">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">     
     <title>Saburly</title>
     <link rel="stylesheet" type="text/css" href="css\main.css">
     <script src="media\js\main.js"></script> 
@@ -38,81 +38,90 @@
 <!-- kraj section jedan -->
 
     <section id="section2" class="sectionScreen">
-        <div class="half">
+        <div class="half  half1">
                 <img class="ffrontImage" src="Media\Group 3.svg" alt="mala ikona">
                 <img  class="frontImage" src="Media\what we do\ic_brush.svg" alt="brush">
-                <img class="backImage" src="Media\what we do\UI&UX Design main_gpn_original_full_full-640x509@2x.png" alt="UX&UI">
         </div>
         
         <div class="half">
-            <h1 class="ux">UX & UI Design</h1>
-            <div class="ux">We love design and will make your application both beautiful and functional.</div>
+            <h1 class="ux_naslov">UX & UI<br> Design</h1>
+            <div class="ux">We love design and will <br> make your application <br> beautiful and <br> functional.</div>
         </div>
     </section>
      <!-- kraj section dva -->
     <section id="section3" class="sectionScreen">
         <div class="half">
-        <h2 class="ux">
-            Web Development
-        </h2>
+        <h1 class="ux_naslov">
+            Web<br> Development
+        </h1>
         <div class="ux">
-            We write high-quality Javascript, Ruby, Python, Go and Elixir Code.
+            We write high-quality<br> Javascript, Ruby,<br> Python, Go and Elixir<br> Code.
         </div>
         </div>
      
-        <div class="half">
+        <div class="half half2">
         <img class="frontImage" src="Media\what we do\icon_code.svg" alt="icon code">
-        <img class="backImage" src="Media\what we do\Web Development Analog-Computing-Machine-in-Fuel-Systems-Building-Lewis-Flight-Propulsion-Lab-NASA-1200x774@2x.png" alt="galerija">
+        
         </div>
         
     </section>
     <!-- kraj section tri -->
     <section id="section4" class="sectionScreen">
-        <div class="half">
+        <div class="half half3">
         <img class="frontImage" src="Media\what we do\ic_phone_iphone.svg" alt="iphone">
-        <img class="backImage" src="Media\what we do\Mobile development-cellphone-ft@2x.png">
+
         </div> 
         <div class="half">
-            <h2 class="ux">Mobile Development</h2>
-        <div class="ux">We deliver apps essentials at your fingerprints. 
-            Functional,flawless and easy to use
+            <h1 class="ux_naslov">Mobile<br> Development</h1>
+        <div class="ux">We deliver apps essentials<br> at your fingerprints. 
+            Functional,flawless <br>
+            and easy to use
         </div>
         </div>
         
     </section>
     <!-- kraj section cetiri -->
     <section id="section5" class="sectionScreen">
-        <div class="gallery">
-        </div>
         <div>
-            <button class="button" onclick="switchImage('-')">Left</button>                
-            <button class="button" onclick="switchImage('+')">Right</button>
+                <button class="button" onclick="switchImage('-')">Left</button>                
+                <button class="button" onclick="switchImage('+')">Right</button>
+          <div class="centar_slika">
             <div class="slika">
-                <img id="galerijaSlika" src="media\our work\Analytical Capabilities.svg" alt="slika">
+                <img id="galerijaSlika" class="galerija" src="media\our work\Analytical Capabilities.png" alt="slika">
             </div>
+          </div>
+        <div class="gallery_description">
+        <div id="name_image">ANALYTICAL CAPABILITIES</div>
+        <div id="description_image">Page about analytical capabilities</div>
         </div>
-
+        
+    
     </section>
     <!--kraj section pet -->
     <section id="section6" class="sectionScreen">
+
         <span class="team">TEAM</span>
         <div>
             <div class="boss">
             <img class="bossImage" src="Media\team\smaja2.png" alt="smaja">
-            <span class="bossName"> Amir Business Develpment</span>
+            
         </div>
 
             <div class="boss">
                 <img class="bossImage" src="media\team\edin2.png" alt="edin">
-                <span class="bossName"> Edin Co-Founder</span>
+                
         </div>
 
             <div class="boss">
                  <img class="bossImage" src="media\team\senad2.png" alt="senad">
-                 <span class="bossName">Senad Co-Founder</span>
+                 
         </div>
+  <div style="clear: both;"></div>
         </div>
-       
+               <div class="plava_traka">
+                   <p class="amir">Amir<br> Bussines Development</p> <p class="edin"> Edin<br> Co-Founder</p><p class="senad">  Senad <br>Co-Founder</p>
+
+        </div>
     </section>
     <!--kraj section sest -->
     <section id="section7" class="sectionScreen">
@@ -124,7 +133,7 @@
             <input class="form" type="text" placeholder="Your First Name"><br>
             <input class="form" type="text" placeholder="Your Last Name"><br>
             <input class="form" type="text" placeholder="Your Message to us"><br>
-            <input class="form" type="submit" value="SEND"><br>
+            <input class="form" id="send" type="submit" value="SEND"><br>
 
         </form>
         </div>
@@ -144,7 +153,7 @@
     <!--kraj section osam tj zadnji -->
     <script>
       $(".ux").on("mouseenter",function(){
-        $(this).css("color","blue")
+        $(this).css("color","#656bfd")
       });
    
         </script>

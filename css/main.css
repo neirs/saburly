@@ -1,6 +1,7 @@
 html,body
 {
-    background-color: #6289EB;
+    background-color:#656bfd;
+    box-sizing: border-box;
 }
 
 #section1
@@ -41,7 +42,7 @@ html,body
 }
 
 .menu-dugme {
-    background-color: #6289EB;    
+    background-color: #656bfd;    
     color:white;
     font-size: 80px;    
     padding: 16px;
@@ -54,7 +55,7 @@ html,body
     display: none;
     position: absolute;
     right: 0;
-    background-color:#6289EB;
+    background-color:#656bfd;
     color:white;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -83,7 +84,7 @@ html,body
 {
     height: 95vh;
     width: 95vw;
-    margin: 2.5vh 1vw 2.5vh 1vw;
+    margin: 1.5vh 1vw;
 
 }
 .centar{
@@ -103,20 +104,25 @@ html,body
 }
 
 .frontImage{
-    z-index: 200;
-    max-width:30%; 
-    height:auto;
-    position: absolute;
-    
-
-        
+  
+    position:absolute;
+    bottom: 0;
 }
-
-.backImage{
-    width:100%; 
-    height:100%;
+.half1{
+    background: white url('../images/ux_ui_section_main.png') no-repeat center;
+    position: relative;
+    
+}
+.half2{
+    background: white url('../images/web_development.png') no-repeat center;
     position: relative;
 }
+.half3{
+    background: white url('../images/mobile_development.png') no-repeat center;
+    position: relative;
+}
+
+
 .ffrontImage{
     z-index: 300;
     max-width:30%; 
@@ -129,33 +135,89 @@ html,body
     top:40%;
     left:0%;
     position: relative;
-    text-align: center;
-    font-size: 20;
+    text-align: justify;
+    font-size: 25;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-left: 150px;
     
-    
-    
+}
+.ux_naslov{
+    font-size: 40;
+    top:40%;
+    left:0%;
+    position: relative;
+    text-align: justify;
+    padding-left: 150px;
+    font-family:sans-serif;
+    font-weight: bold;
+
+
 }
 
 #section6{
-    background: white url('../Media/team/brain fill.svg') no-repeat center fixed;
+    background: white url('../Media/team/brain fill.svg') no-repeat center;
+    position: relative;
 }
 
+
 .bossImage{
-    width: 50%;
-    position: relative;
-    margin-left: 140px;
-    margin-top: 200px;
+   
+   position: absolute;
+   max-width: 150px;
+   left: 46%;
+   bottom: 0px;
+   margin: auto auto;
+  
 }
 
 .boss{
-    width:30%;
-    height:30%;
-    float: left;
+    width: 18%;
+    height:300px;
+    border: 1px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top:170px;
+    left:380px;
 }
 .slika{
     position: relative;
-    left:200px;
-    bottom: 50px;
+    left:180px;
+    top:40px;
+}
+.plava_traka{
+    width: 100%;
+    height: 100px;
+    background-color: #656bfd;
+    position:absolute;
+    bottom: 250px;
+    opacity: 0.9;
+
+}
+
+.amir{
+    float:left;
+    font-size:20px;
+    position:relative;
+    left: 520px;
+    color: white;
+    text-align: center;
+}
+.edin{
+    float:left;
+    font-size:20px;
+    position:relative;
+    left:710px;
+    text-align: center;
+    color: white;
+}
+.senad{
+    float:left;
+    font-size:20px;
+    position:relative;
+    left:950px;
+    color: white;
+    text-align: center;
 }
 .button{
     background-color:white; color: black;
@@ -165,7 +227,8 @@ html,body
     text-align: center;
     position: relative;
     left:660px;
-    top:660px;
+    top:750px;
+   
 
 }
 #section7{
@@ -182,17 +245,25 @@ html,body
 }
 .form{
     width: 30%;
-    padding: 6px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    height: 50px;
+    cursor: pointer;
+    background-color:#232020;
+    border-bottom:2px solid white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+}
+#send{
+    border-left:2px solid white;
+    border-right:2px solid white;
+    color:#232020;
+    background-color: white;
+    margin:70px;
 }
 
-/*#saburly{
-    color: #6289EB;
-}*/
+#saburly{
+    color: #656bfd;
+}
 .footer{
     position: relative;
     text-align: center;
@@ -206,15 +277,37 @@ html,body
     position: relative;
     margin-left: 150px;
     margin-top: 120px;
-    color: #6289EB;
+    color: #656bfd;
     font-size:25;
 }
 .team{
-    font-style: bold;
-    font-size: 30;
-    color: #6289EB;
-    left:100px;
+    font-style:italic;
+    font-size: 50;
+    color: #656bfd;
+    left:150px;
     top:50px;
     position: relative;
+}
+#section5{
+    position: relative;
+}
+.gallery_description{
+position: absolute;
+bottom: 50px;
+left: 100px;
+color:white;
+font-size: 20;
+}
+
+.centar_slika{
+position: relative;
+left:350px;
+top:100px;
+height:600px;
+}
+.galerija{
+  max-width: 800px;
+  width: 100%;
+ 
 }
 

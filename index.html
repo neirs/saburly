@@ -4,7 +4,7 @@
     <meta name="description" content="Web development">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Saburly">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
     <title>Saburly</title>
     <link rel="stylesheet" type="text/css" href="css\main.css">
     <script src="media\js\main.js"></script> 
@@ -15,7 +15,7 @@
         <div id="logo">
             <img src="Media\logo\logo black.svg" alt="crni logo">                
         </div>
-            <div id="menu"><button class="menu-dugme">&equiv;</button>
+            <div id="menu"><button class="menu-dugme">&equiv;</button></div>
                 <div class="menu-sadrzaj">
                     <a href="#section2">UX & UI Design</a>
                     <a href="#section3">Web Development</a>
@@ -24,14 +24,16 @@
                     <a href="#section6">Team</a>
                     <a href="#section7">Contact Form</a>
                 </div>
-            </div>
+            
+            
+            
             
     </header>
 
     
     <section id="section1" class="sectionScreen">
         <div class="centar">        
-            <img src="media/logo/saburly.svg" alt="Saburly">
+            <img class="section_saburly" src="media/logo/saburly.svg" alt="Saburly">
             <h1 onclick="this.innerHTML='WELCOME'">Web & Mobile Applications</h1>                       
         </div>
     </section>
@@ -43,26 +45,27 @@
                 <img  class="frontImage" src="Media\what we do\ic_brush.svg" alt="brush">
         </div>
         
-        <div class="half">
+        <div class="half half_text">
             <h1 class="ux_naslov">UX & UI<br> Design</h1>
             <div class="ux">We love design and will <br> make your application <br> beautiful and <br> functional.</div>
         </div>
     </section>
      <!-- kraj section dva -->
     <section id="section3" class="sectionScreen">
-        <div class="half">
-        <h1 class="ux_naslov">
-            Web<br> Development
-        </h1>
-        <div class="ux">
-            We write high-quality<br> Javascript, Ruby,<br> Python, Go and Elixir<br> Code.
-        </div>
-        </div>
+       
      
         <div class="half half2">
         <img class="frontImage" src="Media\what we do\icon_code.svg" alt="icon code">
         
         </div>
+        <div class="half half_text half_text2">
+            <h1 class="ux_naslov">
+                Web<br> Development
+            </h1>
+            <div class="ux">
+                We write high-quality<br> Javascript, Ruby,<br> Python, Go and Elixir<br> Code.
+            </div>
+            </div>
         
     </section>
     <!-- kraj section tri -->
@@ -71,7 +74,7 @@
         <img class="frontImage" src="Media\what we do\ic_phone_iphone.svg" alt="iphone">
 
         </div> 
-        <div class="half">
+        <div class="half half_text">
             <h1 class="ux_naslov">Mobile<br> Development</h1>
         <div class="ux">We deliver apps essentials<br> at your fingerprints. 
             Functional,flawless <br>
@@ -87,39 +90,50 @@
                 <button class="button" onclick="switchImage('+')">Right</button>
           <div class="centar_slika">
             <div class="slika">
-                <img id="galerijaSlika" class="galerija" src="media\our work\Analytical Capabilities.png" alt="slika">
+                <img id="galerijaSlika" class="galerija mobile_image2"  src="media\our work\Analytical Capabilities.png" alt="slika">
             </div>
           </div>
+            <div class="mobile_image">
+                <img class="mobile_image1" src="images\image.jpg" alt="slika">
+            </div>
+            <div class="button2">
+                <button class="button_mobile">Left</button>
+                <button class="button_mobile">Right</button>
+            </div>
+            <div id="description_image_mobile">YOUR CAREER IS CALLING</div>
+          
         <div class="gallery_description">
         <div id="name_image">ANALYTICAL CAPABILITIES</div>
         <div id="description_image">Page about analytical capabilities</div>
         </div>
+      
         
     
     </section>
     <!--kraj section pet -->
     <section id="section6" class="sectionScreen">
 
-        <span class="team">TEAM</span>
-        <div>
+        <div class="team">TEAM</div>
+        
             <div class="boss">
             <img class="bossImage" src="Media\team\smaja2.png" alt="smaja">
-            
+            <div class="name">Amir Bussines Develpment</div>
         </div>
 
             <div class="boss">
                 <img class="bossImage" src="media\team\edin2.png" alt="edin">
-                
+            <div class="name">Edin Co-Founder</div>
         </div>
 
             <div class="boss">
                  <img class="bossImage" src="media\team\senad2.png" alt="senad">
+               <div class="name">Senad Co-Founder</div>
                  
         </div>
   <div style="clear: both;"></div>
-        </div>
+        
                <div class="plava_traka">
-                   <p class="amir">Amir<br> Bussines Development</p> <p class="edin"> Edin<br> Co-Founder</p><p class="senad">  Senad <br>Co-Founder</p>
+                   <p class="amir">Amir<br> Bussines Develpment</p> <p class="edin"> Edin<br> Co-Founder</p><p class="senad">  Senad <br>Co-Founder</p>
 
         </div>
     </section>
@@ -155,6 +169,12 @@
       $(".ux").on("mouseenter",function(){
         $(this).css("color","#656bfd")
       });
+      $("#menu").on("click",function(){
+          $(".menu-sadrzaj").toggle();
+      });
+    
+    
+      
    
         </script>
 </body>

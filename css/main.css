@@ -2,6 +2,7 @@ html,body
 {
     background-color:#656bfd;
     box-sizing: border-box;
+    
 }
 
 #section1
@@ -31,7 +32,7 @@ html,body
 #menu
 {
     font-size: 80px;
-    right: 40px;
+    right: 50px;
     position: fixed;
     text-align: right;
     width: 5%;
@@ -84,7 +85,7 @@ html,body
 {
     height: 95vh;
     width: 95vw;
-    margin: 1.5vh 1vw;
+    margin: 1.5vw 1vw;
 
 }
 .centar{
@@ -99,8 +100,6 @@ html,body
     width: 50%;
     height: 100%;
     background-color: white;
-    
-    
 }
 
 .frontImage{
@@ -116,6 +115,8 @@ html,body
 .half2{
     background: white url('../images/web_development.png') no-repeat center;
     position: relative;
+    float: right;
+   
 }
 .half3{
     background: white url('../images/mobile_development.png') no-repeat center;
@@ -133,21 +134,18 @@ html,body
 
 .ux{
     top:40%;
-    left:0%;
     position: relative;
-    text-align: justify;
+    text-align:center;
     font-size: 25;
     font-family: Verdana, Tahoma, sans-serif;
-    padding-left: 150px;
+ 
     
 }
 .ux_naslov{
     font-size: 40;
     top:40%;
-    left:0%;
     position: relative;
-    text-align: justify;
-    padding-left: 150px;
+    text-align:center;
     font-family:sans-serif;
     font-weight: bold;
 
@@ -177,12 +175,12 @@ html,body
     position: relative;
     text-align: center;
     display: inline-block;
-    top:170px;
-    left:380px;
+    top:165px;
+    left:370px;
 }
 .slika{
     position: relative;
-    left:180px;
+    left:0px;
     top:40px;
 }
 .plava_traka{
@@ -282,11 +280,11 @@ html,body
 }
 .team{
     font-style:italic;
-    font-size: 50;
+    font-size: 50px;
     color: #656bfd;
     left:150px;
-    top:50px;
     position: relative;
+    top:100px;
 }
 #section5{
     position: relative;
@@ -301,13 +299,173 @@ font-size: 20;
 
 .centar_slika{
 position: relative;
-left:350px;
-top:100px;
 height:600px;
+padding-left:550px;
+padding-right: 300px;
 }
 .galerija{
   max-width: 800px;
   width: 100%;
  
 }
+.name{
+    visibility: hidden;
+}
+.mobile_image{
+    visibility: hidden;
+}
+#description_image_mobile{
+    display:none;  
+  }
+
+@media screen and (max-width:700px){
+
+        .half, half1,half2,half3{
+            
+        width:100%;
+            
+        height:55%;
+            
+        float:none;
+            }
+            .mobile_image{
+                visibility: visible;
+                
+            }
+            .mobile_image1{
+                display:block;
+                margin:auto;
+                padding-top:50%;
+
+            }
+            .mobile_image2{
+                visibility: hidden;
+            }
+            .section_saburly{
+                width:100%;
+            }
+            .ux_naslov{
+                font-size:30px;
+                text-align:center;
+                padding:10px;
+                top:20px;
+                margin-top: 0px;
+            }
+            .ux{
+                text-align:center;
+                padding:0px;
+                font-size:20;
+                top:0px;
+            }
+           .half_text{
+               height:45%;
+           }
+          .frontImage{
+              height:50%;
+          }
+          .plava_traka{
+              visibility:hidden;
+          }
+        
+          #section3{
+            position:relative;
+            background-color:white;
+          }
+          
+          .half2{ 
+          float:right;
+            }
+            .menu-dugme{
+                font-size:60px;
+            }
+            .team{
+                top:0px;
+                left:0px;
+                padding: 10px;
+            }
+            .boss{
+                height: auto;
+                left:0px;
+                width: 100%;
+                top: 0px;
+                }
+                #section6{
+                    background-size:700px 800px;
+                }
+                .ffrontImage{
+                    display:block;
+                    margin:auto;
+                   position: relative;
+                   left:0px;
+                }
+                .name{
+                 visibility:visible;
+                 color:#656bfd;
+                 font-weight:bold;
+                 text-align: center;
+                 width:100%;
+                 padding: 20px;
+                 font-size: 30;
+                }
+                .bossImage{
+                   position:relative;
+                   left:0px;
+                }
+                .plava_traka{
+                    display:none;
+                }
+                .button{
+                    display:none;
+                }
+                .centar_slika{
+                    display:none;
+                }
+                #name_image{
+                    display:none;
+                }
+                #description_image{
+                    display:none;
+                }
+                #description_image_mobile{
+                    display: block;
+                }
+                #description_image_mobile{
+                    display: block;
+                    font-size:20px;
+                    font-weight:bold;
+                    margin:auto;
+                    padding:15%;
+                    text-align:center;
+                    color:white;
+                }
+                
+                 .menu-sadrzaj {
+                        display: none;
+                        /* position: absolute; */
+                        /* right: 0; */
+                        background-color:#656bfd;
+                        color:white;
+                        /* min-width: 200px; */
+                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                        z-index: 10000;
+                        font-size: 20px;
+                        text-align: center;
+                        top:15%;
+                        width: 100%;
+                    }
+                    .button2{
+                        padding:10% 20% 0% 40%;
+                    }
+                    .button_mobile{
+                        border:2px solid #007b8a;
+                        background-color:white;
+                        font-size:15;
+                    }
+                
+
+
+}
+
+
+
 
